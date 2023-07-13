@@ -20,8 +20,6 @@ def minOperations(n):
     Returns:
         int: The minimum number of operations required.
     """
-    if n <= 1:
-        return 0
 
     operations = 0
     divisor = 2
