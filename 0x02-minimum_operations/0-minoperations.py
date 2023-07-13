@@ -12,10 +12,10 @@ def minOperations(n: int) -> int:
     needed to result in exactly n H characters
     in the file"""
     process = 2
-    op = 0
+    operations = 0
     while n > 1:
         while n % process == 0:
-            op += process
+            operations += process
             n /= process
         process += 1
-    return op
+    return operations
